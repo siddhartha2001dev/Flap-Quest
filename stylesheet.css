@@ -1,0 +1,88 @@
+/* full screeen background */
+body, html{
+    height: 100%;
+    margin: 10vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* outer wrapper to center the game screen */
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Main game screen area*/
+
+.gamescreen{
+    width: 360px;
+    height: 650px;
+    background: url(./images/Background\ Normal.JPG) no-repeat center center;
+    background-size: cover;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Menu box with text and buttons */
+
+.menubox{
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    justify-content: center;
+    padding: 5%;
+    border: 2px solid black;
+}
+
+/* Styling for text */
+
+.flap{
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+.quest{
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    font-style: italic;
+}
+
+/*Button */
+
+.startbtn{
+    margin-top: 20px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.startbtn:hover{
+    background-color: rgb(125, 125, 125);
+    color: rgb(255, 255, 255);
+}
+
+.bin{
+    color: red;
+}
+
+@media (max-width: 345px){
+    .gamescreen {
+    width: 300px;
+    height: 650px;
+    background-size: cover;
+    }
+}
