@@ -1,10 +1,11 @@
 /* full screeen background */
 body, html{
     height: 100%;
-    margin: 10vh;
+    margin: auto;
     background-color: aqua;
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
 }
 
@@ -21,8 +22,8 @@ body, html{
 /*Main game screen area*/
 
 .gamescreen{
-    width: 360px;
-    height: 650px;
+    width: 350px;
+    height: 540px;
     background: url(./images/Background\ Normal.JPG) no-repeat center center;
     background-size: cover;
     border: 2px solid black;
