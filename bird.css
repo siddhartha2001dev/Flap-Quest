@@ -1,4 +1,4 @@
-body{
+body, html{
     height: 100%;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
@@ -6,7 +6,7 @@ body{
     align-items: center;
     text-align: center;
     background-color: aqua;
-    margin: 25vh;
+    margin: auto;
 }
 
 
@@ -20,5 +20,25 @@ body{
     position: relative;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 345px){
+
+    #board{
+    width: 300px;
+    height: 650px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    }
+
+    body, html{
+        width: auto;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        
+    }
 }
 
