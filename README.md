@@ -4,7 +4,7 @@ Flap Quest is a fun and engaging browser-based arcade game inspired by the class
 
 ## 🚀 Live Demo
 
-🔗 Add your live project link here
+https://flap-quest-game.netlify.app/
 
 ---
 
@@ -69,7 +69,6 @@ Flap-Quest/
 **Siddhartha Banerjee**
 
 - GitHub: https://github.com/siddhartha2001dev
-- Portfolio: https://siddhartha2001dev.github.io/
 
 ---
 
